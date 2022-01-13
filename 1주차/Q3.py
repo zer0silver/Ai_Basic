@@ -5,6 +5,7 @@ score = [(100,100),(95,90),(55,60),(75,80),(70,70)]
 
 def get_avg(score):
   cnt = 0
+  # list(score) = ((100,100),(95,90),(55,60),(75,80),(70,70))
   for x,y in list(score):
     cnt+=1
     print(cnt," 번, 평균 : ", float((x+y)/2))
